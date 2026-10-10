@@ -1,0 +1,6 @@
+Node: agent-cloud-amd64-v2
+jenkins-agent-cloud
+x86_64
+jenkins
+Wed Oct  7 17:58:38 UTC 2026
+Java test passed!

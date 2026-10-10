@@ -1,0 +1,6 @@
+Node: agent-arm64
+8c5fbb821401
+aarch64
+jenkins
+Wed Oct  7 17:58:37 UTC 2026
+Java test passed!

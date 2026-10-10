@@ -7,8 +7,8 @@
 - [x] Java source included separately for readability.
 - [x] Verification summary derived from supplied console output and screenshots.
 - [x] Ignore rules for private keys, secret files, and generated binaries.
-- [ ] Add original screenshots to `evidence/`.
-- [ ] Add original downloaded text reports to `evidence/`.
+- [x] Add original screenshots to `evidence/` (build success and both agent reports).
+- [x] Add original downloaded text reports to `evidence/`.
 - [ ] Save the complete successful console output as `evidence/distributed-build-console.txt`.
 - [ ] Review every upload for passwords, node secrets, private keys, tokens, personal information, and unnecessary account identifiers.
 - [ ] Create the public GitHub repository `CodeAlpha_Jenkins_Remoting` and upload this folder's contents.
@@ -18,6 +18,8 @@
 | Filename | Evidence to include |
 | --- | --- |
 | `distributed-build-success.png` | Successful build #1 and all four archived artifacts |
+| `arm64-report.png` | Original screenshot of the ARM64 execution report |
+| `amd64-report.png` | Original screenshot of the Azure AMD64 execution report |
 | `nodes-online.png` | Local ARM64 and Azure AMD64 agent status |
 | `cloud-agent-test-success.png` | Successful preliminary cloud-agent test #2 |
 | `report-aarch64.txt` | Original downloaded ARM64 report |

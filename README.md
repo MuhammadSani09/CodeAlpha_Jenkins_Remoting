@@ -163,6 +163,15 @@ The demonstrated job used a manually pasted Pipeline script. Publishing this rep
 
 ## Evidence and submission status
 
-The build result and artifact list were verified from the user's Jenkins screenshots and console output. Selected excerpts are preserved in `docs/verification.md`. Original screenshots and downloaded artifacts still need to be placed in `evidence/`; see the checklist. This documentation does not claim a GitHub upload, walkthrough video, or final internship submission has already been completed.
+The build result and artifact list were verified from the user's Jenkins screenshots and console output. Selected excerpts are preserved in `docs/verification.md`. The downloaded execution reports and three original screenshots are included in `evidence/`. The complete console log and optional node-status screenshot can still be added; see the checklist. This documentation does not claim a walkthrough video or final internship submission has already been completed.
+
+### Successful distributed build
+
+![Successful distributed build and four archived artifacts](evidence/distributed-build-success.png)
+
+### Agent execution reports
+
+- [ARM64 text report](evidence/report-aarch64.txt) and [original screenshot](evidence/arm64-report.png).
+- [Azure AMD64 text report](evidence/report-x86_64.txt) and [original screenshot](evidence/amd64-report.png).
 
 Suggested public repository name: **CodeAlpha_Jenkins_Remoting**.
