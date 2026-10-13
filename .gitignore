@@ -1,0 +1,13 @@
+*.pem
+*.key
+secret-file
+*secret-file*
+.env
+.env.*
+!.env.example
+*.jar
+*.class
+classes/
+remoting/
+*.log
+.DS_Store
